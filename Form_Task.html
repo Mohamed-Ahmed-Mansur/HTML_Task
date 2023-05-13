@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Keep going">
+        <Title>
+            Form Task
+        </Title>
+        <style>
+            body {
+                background-color: darkslategray;
+            }
+            .form {
+                background-color: teal;
+            }
+            .container {
+                border: 1px groove;
+                margin: 0;
+            }
+            .box1 {
+                background-color: cadetblue;
+                width: fit-content;
+                position: relative;
+                top: 9px;
+                left: 10px;
+            }
+            .box1 p {
+                padding: 0px 2px;
+                margin: 0;
+            }
+            .box2 {
+                background-color: darkcyan;
+                width: fit-content;
+                padding: 20px 0px;
+                position: relative;
+                top: 45px;
+                left: 15px;
+            }
+            .box3 {
+                background-color: cadetblue;
+                border: 0.5px groove;
+                padding: 80px 10px 10px 10px;
+                margin: 0px 5px;
+            }
+            label, input {
+                margin: 5px;
+            }
+            .box4, .box5, .box6, .box7, .box8 {
+                margin: 25px 5px;    
+            }
+            .box8 {
+                margin-bottom: 0;
+            }
+            #submit {
+                border-radius: 8px;
+                background-color: darkslategray;
+                color: white;
+                padding: 0px 3px;
+                border-style: hidden;
+                font-size: 25px;
+                width: fit-content;
+                cursor: pointer;
+            }
+            .box8 input:active {
+                position: relative;
+                top: 2px;
+            }
+        </style>
+    </head>
+    <body >
+        <section class="form">
+            <div class="box1">
+                <p>Personal Data</p>
+            </div>
+            <form method="get">
+                <div class="container">
+                    <div class="box2">
+                        <p>Your Name</p>
+                    </div>
+                    <div class="box3">
+                        <div>
+                            <label style="margin-right: 23px;">First Name</label>
+                            :<input type="text" placeholder="ex Mohamed" name="First Name" minlength="2" maxlength="25" required>
+                        </div>
+                        <div>
+                            <label>Second Name</label>
+                            :<input type="text" placeholder="ex Hashem" name="Second Name" minlength="2" maxlength="25" required>
+                        </div>
+                    </div>
+                    <div class="box4">
+                        <div>
+                            <label style="margin-right: 14.16px;">Your Phone:</label>
+                            :<input type="text" name="Mobile" minlength="2" maxlength="25" required>
+                        </div>
+                        <div>
+                            <label style="margin-right: 51.23px;">Email:</label>
+                            :<input type="text" name="Email" minlength="2" maxlength="25" required>
+                        </div>
+                        <div>
+                            <label style="margin-right: 28.11px;">Password:</label>
+                            :<input type="text" name="Password" minlength="2" maxlength="25" required>
+                        </div>
+                        <div>
+                            <label>Re-Password:</label>
+                            :<input type="text" minlength="2" maxlength="25" required>
+                        </div>
+                    </div>
+                    <div class="box5">
+                        <input type="radio" name="Gender">Male</input><br>
+                        <input type="radio" name="Gender">Female</input>
+                    </div>
+                    <div class="box6">
+                        <input type="checkbox">Student</input><br>
+                        <input type="checkbox">Graduate</input>
+                    </div>
+                    <div class="box7">
+                        <label>University</label>
+                       :<select name="University">
+                            <option value="AUC">AUC</option>
+                            <option value="NU">Nile University</option>
+                            <option value="GUC">GUC</option>
+                            <option value="AlexU">Alexandria University</option>
+                            <option value="CU">Cairo University</option>
+                        </select>
+                    </div>
+                    <div class="box8">
+                        <input id="submit" type="submit">
+                    </div>
+                </div>
+            </form>
+        </section>
+    </body>
+    
+</html>

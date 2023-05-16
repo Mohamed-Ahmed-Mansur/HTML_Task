@@ -1,0 +1,58 @@
+body {
+    background-color: darkslategray;
+}
+.form {
+    background-color: teal;
+}
+.container {
+    border: 1px groove;
+    margin: 0;
+}
+.box1 {
+    background-color: cadetblue;
+    width: fit-content;
+    position: relative;
+    top: 9px;
+    left: 10px;
+}
+.box1 p {
+    padding: 0px 2px;
+    margin: 0;
+}
+.box2 {
+    background-color: darkcyan;
+    width: fit-content;
+    padding: 20px 0px;
+    position: relative;
+    top: 45px;
+    left: 15px;
+}
+.box3 {
+    background-color: cadetblue;
+    border: 0.5px groove;
+    padding: 80px 10px 10px 10px;
+    margin: 0px 5px;
+}
+label, input {
+    margin: 5px;
+}
+.box4, .box5, .box6, .box7, .box8 {
+    margin: 25px 5px;    
+}
+.box8 {
+    margin-bottom: 0;
+}
+#submit {
+    border-radius: 8px;
+    background-color: darkslategray;
+    color: white;
+    padding: 0px 3px;
+    border-style: hidden;
+    font-size: 25px;
+    width: fit-content;
+    cursor: pointer;
+}
+.box8 input:active {
+    position: relative;
+    top: 2px;
+}

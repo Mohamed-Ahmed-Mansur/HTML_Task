@@ -1,0 +1,89 @@
+Nav {
+    display: flex;
+    background-color: darkslategray;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+/** Styling box1**/
+
+.box1 {
+    display: flex;
+    align-items: center;
+    background-color: orange;
+    margin-left: 3em;
+    width: 250px;
+    height: 75px;
+}
+
+.menu {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.arrow {
+    width: 20px;
+    height: 20px;
+    transform: rotate(90deg);
+    margin: auto;
+    margin-right: 30px;
+}
+
+/** Styling box2**/
+
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.box2 img {
+    margin-left: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.Pages {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.Home {
+    color: orange;
+}
+
+/** Styling box3**/
+
+.box3 {
+    margin: auto;
+    margin-right: 40px;
+}
+
+.box3 img {
+    width: 20px;
+    height: 20px;
+}
+
+.space {
+    margin-right: 10px;
+}
+
+span {
+    border: 1px solid white;
+    color: white;
+    border-radius: 100%;
+    padding: 1px 5px;
+    position: relative;
+    bottom: 5px;
+}

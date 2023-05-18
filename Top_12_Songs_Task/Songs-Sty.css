@@ -1,0 +1,101 @@
+body, html {
+    background-color: #532a7f;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Archivo", sans-serif;
+}
+
+/** Styling header **/
+
+header {
+    width: fit-content;
+    margin: 12% 41% 0;
+}
+
+header h1 {
+    display: inline;
+    font-weight: bold;
+    font-size: larger;
+    font-size: 28pt;
+    margin-left: 5px;
+}
+
+/** Styling main **/
+
+main {
+    width: 100%;
+}
+
+main p {
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    line-height: 1.7;
+}
+
+.Text {
+    text-align: center;
+    margin: 50px 30%;
+}
+
+button {
+    margin: 50px 44%;
+    padding: 12px 35px;
+}
+
+button p {
+    color:  #532a7f;
+    font-size: 14pt;
+    font-family: system-ui;
+    font-weight: 600;
+    margin: 0;
+}
+
+/** Styling border-box **/
+
+#myDIV {
+    display: none;
+}
+
+.Top {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr 6fr;
+    border: 3px solid white;
+    margin: 50px 28%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.Top p {
+    font-size: 18pt;
+    margin: 20px;
+    display: inline;
+    margin-left: 25px;
+    justify-self: baseline
+}
+
+.box {
+    width: 3em;
+    height: 3em;
+    background-color: blueviolet;
+    display: inline-block;
+    margin: 20px;
+    margin-right: 0;
+}
+
+.box p {
+    font-size: 20pt;
+    text-align: center;
+    display: block;
+    margin: 0;
+}
+
+/** Display Styling **/
+
+@media only screen and (max-width: 1040px) {
+    .Top {
+        grid-template-columns: 1fr 6fr;
+    }
+}
+

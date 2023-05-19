@@ -10,14 +10,13 @@ body, html {
 
 header {
     width: fit-content;
-    margin: 12% 41% 0;
+    margin: 12% 43% 0;
 }
 
 header h1 {
     display: inline;
     font-weight: bold;
-    font-size: larger;
-    font-size: 28pt;
+    font-size: 26pt;
     margin-left: 5px;
 }
 
@@ -39,7 +38,7 @@ main p {
 }
 
 button {
-    margin: 50px 44%;
+    margin: 50px 45%;
     padding: 12px 35px;
 }
 

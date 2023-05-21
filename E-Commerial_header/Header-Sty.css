@@ -374,8 +374,8 @@ header {
     grid-template-areas: "hd hd hd1"
                          "hd hd ft";
     gap: 2em;
-    width: 90vw;
-    height: 60vh;
+    width: 95vw;
+    height: 10vw;
     margin: 0 3em;
     padding-top: 3em;
 }
@@ -387,14 +387,17 @@ header {
 
 .left {
     grid-area: hd;
+    height: 32em;
 }
 
 .right1 {
     grid-area: hd1;
+    height: 15em;
 }
 
 .right2 {
     grid-area: ft;
+    height: 15em;
 }
 
 .container {
@@ -415,7 +418,7 @@ header {
     position: relative;
     top: 1em;
     left: 33%;
-    font-size: 22pt;
+    font-size: 16pt;
     border: 1px solid white;
     padding: 0.5em;
     width: fit-content;
@@ -425,7 +428,8 @@ header {
 .container .ONE {
     position: relative;
     top: 2em;
-    left: 33%;
+    left: 38%;
+    font-size: 22pt;
 }
 
 .container .click:hover {
@@ -498,3 +502,8 @@ header {
     }
 }
 
+@media only screen and (max-width: 1480px) {
+    .track {
+        display: none;
+    }
+}

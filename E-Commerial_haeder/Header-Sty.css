@@ -1,0 +1,500 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body a {
+    color: black;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+body i {
+    cursor: pointer;
+}
+
+/** frist bar Styling **/
+
+.first {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.Box1 {
+    margin-left: 3em;
+}
+
+.Box1 a {
+    color: lightslategray;
+}
+
+.Box1 a:hover {
+    text-decoration: underline;
+}
+
+.Box1, .Box2 {
+    display: flex;
+}
+
+.Box2 {
+    margin: 0;
+    margin-left: 60vw;
+}
+
+.Box2 i {
+    padding-left: 0;
+}
+
+.dropdown {
+    padding: 0.5em 0;
+}
+
+.dropdown:hover {
+    background-color: aliceblue;
+}
+
+.drop {
+    margin: 0 0.2em 0.4em;
+    background-color: white;
+    cursor: pointer;
+}
+
+.drop ul {
+    list-style: none;
+    background-color: aliceblue;
+    position: absolute;
+    display: none;
+}
+
+.drop .FIRST {
+    width: 5.76875em;
+}
+
+.drop .SECOND {
+    width: 2.798125em;
+}
+
+.drop .THIRD {
+    width: fit-content;
+}
+
+.drop ul li {
+    padding: 0.3em 0;
+}
+
+.drop:hover ul {
+    display: block;
+}
+
+.drop ul li:hover {
+    background-color: aqua;
+}
+
+.drop:hover .fa-caret-down {
+    transform: rotate(180deg);
+    transition: 0.3s;
+}
+
+/** Styling added box to first bar for smaller screen **/
+
+.first .box2 {
+    display: none;
+}
+
+.first .box2 {
+    margin: auto;
+    margin-left: 2.5em;
+}
+
+.first .fa-heart, .first .fa-cart-shopping {
+    color: darkslategray;
+    margin-right: 0.15em;
+    align-self: center;
+}
+
+.first .box2 span {
+    border: 1px solid darkslategray;
+    color: darkslategray;
+    border-radius: 100%;
+    padding: 1px 5px;
+    font-weight: 800;
+}
+
+/** Styling second bar **/
+
+.second {
+    display: flex;
+    margin: 1em 0 1em 4em;
+}
+
+.second p, .second h1{
+    display: inline;
+}
+
+.badge {
+    padding: 0.2em;
+    font-size: 22pt;
+    height: fit-content;
+}
+
+.one {
+    background-color: darkslategray;
+    color: orange;
+}
+
+.two {
+    background-color: orange;
+    color: darkslategray;
+}
+
+.search {
+    margin-left: 20%;
+    width: 30em;
+    height: 3em;
+    padding-left: 2em;
+    border: 1px solid darkgray;
+}
+
+.enter {
+    font-family: 'Font Awesome 5 Free', sans-serif;
+    font-weight: bold;
+    border: 1px solid darkgray;
+    border-left: 0;
+    color: gold;
+    width: 3em;
+    font-size: large;
+    background-color: white;
+    height: 2.3em;
+}
+
+.enter:active {
+    background-color: aliceblue;
+}
+
+.Box4 {
+    display: block;
+    margin-left: 25%;
+}
+
+.Box4 p {
+    display: block;
+}
+
+.Box4 p b {
+    font-size: 16pt;
+}
+
+/** Styling Categories (third) bar **/
+
+.third {
+    background-color: darkslategray;
+}
+
+.large {
+    display: flex;
+}
+
+.small {
+    display: none;
+}
+
+/** Styling large**/
+
+.Categories {
+    background-color: orange;
+    margin-left: 3em;
+    width: 25em;
+    height: 5em;
+}
+
+.Categories .main {
+    display: flex;
+    align-items: center;
+    margin: 1.8em 0;
+}
+
+.Categories p {
+    font-size: 14pt;
+    margin-left: 0.5em;
+}
+
+.Categories .shop {
+    display: none;
+    list-style: none;
+    background-color: whitesmoke;
+    color: #111;
+    width: 25em;
+    position: absolute;
+}
+
+.Categories .shop li {
+    padding: 1em;
+    cursor: pointer;
+}
+
+.Categories li h1 {
+    cursor: auto;
+}
+
+.Categories .shop li:hover {
+    background-color: #eaeded;
+}
+
+.Categories .shop .fa-angle-down {
+    margin: 0;
+    float: right;
+    transform: rotate(270deg);
+}
+
+.Categories .shop .all {
+    float: none;
+    transform: none;
+    margin-left: 0.5em;
+}
+
+.fa-bars {
+    margin-left: 1.5em;
+}
+
+.fa-angle-down {
+    margin-left: 12em;
+}
+
+.Categories .main .fa-angle-down:hover {
+    transform: rotateZ(180deg);
+    transition: 0.3s;
+}
+
+.Categories:hover .shop {
+    display: block;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.5em;
+}
+
+.box1 a {
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+}
+
+.box1 .fa-angle-down {
+    margin: 0;
+    padding: 0;
+    color: white;
+    cursor: pointer;
+}
+
+.box1 a:hover {
+    color: orange
+}
+
+.box1 .fa-angle-down:hover {
+    transform:rotateX(180deg);
+    transition: 0.3s;
+}
+
+.box1 .pages {
+    padding-right: 0.3em;
+}
+
+.Home {
+    color: orange;
+}
+
+.box2 {
+    margin: auto;
+    margin-right: 2.5em;
+}
+
+.fa-heart, .fa-cart-shopping {
+    color: gold;
+}
+
+.space {
+    margin-right: 0.5em;
+}
+
+.box2 span {
+    border: 1px solid white;
+    color: white;
+    border-radius: 100%;
+    padding: 1px 5px;
+}
+
+/** Styling small **/
+
+.small .badge {
+    padding: 0.2em;
+    font-size: 22pt;
+    height: fit-content;
+    margin: 1em 0;
+}
+
+.small .one {
+    background-color: white;
+    color: darkslategray;
+    margin-left: 1em;
+}
+
+.small .two {
+    background-color: orange;
+    color: white;
+}
+
+.small .fa-2xl {
+    border: 1px solid darkgray;
+    align-self: center;
+    padding: 0.8em;
+    color: wheat;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 1em;
+}
+
+.small .fa-2xl:hover {
+    background-color: orange;
+    transition: 0.5s;
+}
+
+/** Styling header **/
+
+header {
+    background-color: whitesmoke;
+    height: 250vw;
+}
+
+.show {
+    display: grid;
+    grid-template-areas: "hd hd hd1"
+                         "hd hd ft";
+    gap: 2em;
+    width: 90vw;
+    height: 60vh;
+    margin: 0 3em;
+    padding-top: 3em;
+}
+
+.show img {
+    width: 100%;
+    height: 100%;
+}
+
+.left {
+    grid-area: hd;
+}
+
+.right1 {
+    grid-area: hd1;
+}
+
+.right2 {
+    grid-area: ft;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    bottom: 70%;
+    left: 15%;
+    color: white;
+    font-size: 18pt;
+    width: 70%;
+}
+
+.container b {
+    font-size: 40pt;
+}
+
+.container .click {
+    position: relative;
+    top: 1em;
+    left: 33%;
+    font-size: 22pt;
+    border: 1px solid white;
+    padding: 0.5em;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.container .ONE {
+    position: relative;
+    top: 2em;
+    left: 33%;
+}
+
+.container .click:hover {
+    color: orange;
+    transition: 0.5s;
+}
+
+.track {
+    position: relative;
+    top: 10%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18pt;
+}
+
+.track .process {
+    width: 100%;
+}
+
+.track i {
+    color: gold;
+    padding-right: 0.5em;
+}
+
+.track div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23%;
+    height: 4em;
+    text-align: center;
+    background-color: white;
+}
+
+/** media Query **/
+
+@media only screen and (max-width: 1040px) {
+    .second, .large, .Box1 {
+        display: none;
+    }
+
+    .small, .first .box2 {
+        display: flex;
+    }
+
+    .Box2 {
+        margin: auto;
+    }
+
+    .show {
+        grid-template-areas: "hd"
+                             "hd"
+                             "hd1"
+                             "ft";
+    }
+
+    .track {
+        position: relative;
+        top: 55%
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .track {
+        display: none;
+    }
+
+    .container .lor {
+        display: none;
+    }
+}
+
